@@ -8,6 +8,7 @@ let quality = {
     price: 100,
     img: ['img1', 'img2', 'img3']
 }
+
 function abstractProduct(quality) {
 
     if (this.constructor === abstractProduct) {
